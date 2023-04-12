@@ -1,16 +1,16 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+# AND101 Project 7 - CYOAPI Part 3: Beautified
 
 Submitted by: **Sajed Atwa**
 
-Time spent: **10** hours spent in total
+Time spent: **1** hours spent in total
 
 ## Summary
 
-**Poke API Recycler View** is an android app that **Reads data from a pokemon api and displays a scrollable list a pokemons image, name, and type**
+**Pokemon** is an android app that **An app that displays a scrollable list of pokemon thats provided by the pokemon API**
 
-If I had to describe this project in three (3) emojis, they would be: **😎😄😁**
+If I had to describe this project in three (3) emojis, they would be: **😎😁😄**
 
 ## Application Features
 
@@ -18,15 +18,16 @@ If I had to describe this project in three (3) emojis, they would be: **😎😄
 
 The following REQUIRED features are completed:
 
-- [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Implement a RecyclerView to display a list of entries from the API
-- [x] Display at least three (3) pieces of data for each RecyclerView item
+- [x] App contains a RecyclerView that displays a list of scrollable data
+- [x] App displays at least two (2) pieces of data for each RecyclerView item
+- [x] Use a downloadable font with custom color and size
+- [x] Modify the theme of the app in `themes.xml`
+- [x] Define and apply at least one style in `styles.xml`
 
 The following STRETCH features are implemented:
 
-- [ ] Add a UI element for the user to interact with API further
-- [ ] Show a `Toast` or `Snackbar` when an item is clicked
-- [ ] Add item dividers with `DividerItemDecoration`
+- [ ] Update the night theme to use different versions of styles when in dark mode
+- [ ] Use different drawables when in dark mode
 
 The following EXTRA features are implemented:
 
@@ -36,8 +37,8 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://user-images.githubusercontent.com/122500432/230700505-f89b981c-ccb0-4df2-a4e1-f4d7e937874c.gif'
-title='Video Demo' width='' alt='Video Demo' />
+<img src='https://user-images.githubusercontent.com/122500432/231581256-4b022ff2-94c8-412a-8784-e2604a5a5bb8.gif' title='Video Demo' width='' alt='Video Demo' />
+
 
 GIF created with **Kap**
 
@@ -48,7 +49,7 @@ GIF created with **Kap**
 
 ## Notes
 
-I learned how to implement api data into a recycler view
+I learned about how to make my apps look nicer using themes and styles
 
 ## License
 
