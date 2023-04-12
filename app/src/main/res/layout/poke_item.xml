@@ -17,11 +17,12 @@
         android:id="@+id/poke_name"
         android:layout_width="181dp"
         android:layout_height="54dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/yellow"
+        android:textAppearance="@style/LargeRedAppFont"
+        android:fontFamily="@font/akronim"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20sp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,11 +30,12 @@
         android:id="@+id/poke_type"
         android:layout_width="181dp"
         android:layout_height="54dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/yellow"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textAppearance="@style/LargeRedAppFont"
+        android:fontFamily="@font/alfa_slab_one"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
